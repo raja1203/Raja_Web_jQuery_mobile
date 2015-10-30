@@ -2,6 +2,7 @@
 <html>
 <head>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
   <link rel="stylesheet" href="mymobstyle.css">
@@ -22,6 +23,21 @@
       }
     </style>
 >>>>>>> origin/master
+=======
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+  table ,thead, th, tr, td {
+   
+    border-collapse: collapse;
+            border : 1px solid black;
+           padding : 5px;
+      text-align   : left;
+  }
+</style>
+>>>>>>> parent of afcef5c... changes  include use of external style sheet
 </head>
 
 <body>
@@ -201,10 +217,10 @@
           <li><a href="#wdev" data-rel = "popup" class = "ui-btn ui-btn-inline ui-btn-corner-all data-position-to="#wd" ui-btn-active ui-state-persist">Web Development</a></li>
         </ul>
       </div>
-      <div data-role="popup" id="mframe" class = "ui-content popprop1" data-arrow = "t" data-overlay-theme = "a" >
+      <div data-role="popup" id="mframe" class = "ui-content" data-arrow = "t" data-overlay-theme = "a" style="width:100 px; height:500 px;border: 1px solid black;padding:5px">
         <p>
           <span id = "mf">   
-            <ul>
+            <ul style="list-style-type:none">
               <li>COBOL</li>
               <li>DB2</li>
               <li>CICS</li>
@@ -213,10 +229,10 @@
           </span>
         </p>
       </div>  
-      <div data-role="popup" id="pmgmt"  class = "ui-content popprop1" data-arrow = "t" >
+      <div data-role="popup" id="pmgmt"  class = "ui-content" data-arrow = "t" style="width:100 px; height:500 px;border: 1px solid black;padding:5px">
         <p>
           <span id = "pm">   
-            <ul>
+            <ul style="list-style-type:none">
               <li>MS Project</li>
               <li>JIRA</li>
               <li>Workday</li>
@@ -225,10 +241,10 @@
           </span>
         </p>
       </div>  
-      <div data-role="popup" id="wdev"  class = "ui-content popprop2" data-arrow = "t" >
+      <div data-role="popup" id="wdev"  class = "ui-content" data-arrow = "t" style="width:100 px; height:1000 px;border: 1px solid black;padding:5px">
         <p>
           <span id = "wd">   
-            <ul>
+            <ul style="list-style-type:none">
               <li>HTML5</li>
               <li>CSS3<li>
               <li>Javascript</li>
