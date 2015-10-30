@@ -2,18 +2,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<link rel="stylesheet" href="mymobstyle.css">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-<style>
-  table ,thead, th, tr, td {
-   
-    border-collapse: collapse;
-            border : 1px solid black;
-           padding : 5px;
-      text-align   : left;
-  }
-</style>
 </head>
 
 <body>
@@ -185,8 +177,8 @@
           <li><a href="#wdev" data-rel = "popup" class = "ui-btn ui-btn-inline ui-btn-corner-all data-position-to="#wd" ui-btn-active ui-state-persist">Web Development</a></li>
         </ul>
       </div>
-      <div data-role="popup" id="mframe" class = "ui-content" data-arrow = "t" data-overlay-theme = "a" style="width:100 px; height:500 px;border: 1px solid black;padding:5px">
-        <p>
+      <div data-role="popup" id="mframe" class = "ui-content" data-arrow = "t" >
+        <p class = "popprop1">
           <span id = "mf">   
             <ul style="list-style-type:none">
             <li>COBOL</li>
@@ -197,10 +189,10 @@
         </span>
         </p>
       </div>  
-      <div data-role="popup" id="pmgmt"  class = "ui-content" data-arrow = "t" style="width:100 px; height:500 px;border: 1px solid black;padding:5px">
-        <p>
+      <div data-role="popup" id="pmgmt"  class = "ui-content" data-arrow = "t" >
+        <p class = "popprop1">
           <span id = "pm">   
-            <ul style="list-style-type:none">
+            <ul>
             <li>MS Project</li>
             <li>JIRA</li>
             <li>Workday</li>
@@ -209,8 +201,8 @@
         </span>
         </p>
       </div>  
-      <div data-role="popup" id="wdev"  class = "ui-content" data-arrow = "t" style="width:100 px; height:1000 px;border: 1px solid black;padding:5px">
-        <p>
+      <div data-role="popup" id="wdev"  class = "ui-content" data-arrow = "t" >
+        <p class = "popprop2">
           <span id = "wd">   
             <ul style="list-style-type:none">
             <li>HTML5</li>
